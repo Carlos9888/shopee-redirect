@@ -1,3 +1,8 @@
 /s/50NfQuW4Wo https://s.shopee.co.id/50NfQuW4Wo
 /s/z0YirrzG https://s.shopee.co.id/z0YirrzG
-/*  https://videyf.xyz/:splat  301!
+
+# Force HTTP to HTTPS
+http://videyf.xyz/* https://videyf.xyz/:splat 301!
+
+# Optional: Redirect www to non-www
+www.videyf.xyz/* https://videyf.xyz/:splat 301!
